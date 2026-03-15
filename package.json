@@ -1,0 +1,61 @@
+{
+  "name": "debug-stop-all",
+  "displayName": "Stop All Debug Sessions",
+  "description": "Adds a toolbar button and command to stop all active debug sessions at once.",
+  "version": "0.0.1",
+  "publisher": "muta",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Debuggers"
+  ],
+  "activationEvents": [
+    "onDebug"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "debug-stop-all.stopAll",
+        "title": "Stop All",
+        "category": "Debug",
+        "icon": {
+          "light": "icons/stop-all-light.svg",
+          "dark": "icons/stop-all-dark.svg"
+        }
+      }
+    ],
+    "menus": {
+      "debug/toolBar": [
+        {
+          "command": "debug-stop-all.stopAll",
+          "when": "inDebugMode",
+          "group": "navigation@60"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "debug-stop-all.stopAll",
+          "when": "inDebugMode"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "debug-stop-all.stopAll",
+        "key": "ctrl+shift+f11",
+        "mac": "cmd+shift+f11",
+        "when": "inDebugMode"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc -watch"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "typescript": "^5.0.0"
+  }
+}
