@@ -2,12 +2,28 @@
   "name": "debug-stop-all",
   "displayName": "Stop All Debug Sessions",
   "description": "Adds a toolbar button and command to stop all active debug sessions at once.",
-  "version": "0.0.1",
-  "publisher": "muta",
+  "version": "0.1.0",
+  "publisher": "UtterDevelopment",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Originalutter/vscode-debug-stop-all"
+  },
+  "homepage": "https://utterdev.se",
   "engines": {
     "vscode": "^1.70.0"
   },
   "icon": "icons/extension-icon.png",
+  "keywords": [
+    "debug",
+    "stop",
+    "terminate",
+    "sessions",
+    "toolbar",
+    "compound",
+    "multiple",
+    "launch"
+  ],
   "categories": [
     "Debuggers"
   ],

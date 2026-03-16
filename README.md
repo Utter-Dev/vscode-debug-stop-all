@@ -10,7 +10,9 @@ Stop all active debug sessions with a single click or keyboard shortcut.
 
 ## Why?
 
-VS Code's built-in stop button only stops the currently focused debug session. When running multiple sessions (e.g. a frontend and backend), you have to stop each one individually. This extension adds a single action to stop them all at once.
+VS Code's built-in stop button only stops the currently focused debug session. When running compound launch configurations or multiple sessions (e.g. a frontend and backend), you have to stop each one individually. This extension adds a single action to stop them all at once.
+
+Especially useful if you use **compound debug configurations** in your `launch.json` — one click to tear down the entire stack.
 
 ## Usage
 
