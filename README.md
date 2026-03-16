@@ -1,4 +1,4 @@
-# Stop All Debug Sessions
+# Debug Stop All
 
 Stop all active debug sessions with a single click or keyboard shortcut.
 
