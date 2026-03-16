@@ -1,9 +1,9 @@
 {
   "name": "debug-stop-all",
-  "displayName": "Stop All Debug Sessions",
+  "displayName": "Debug Stop All",
   "description": "Adds a toolbar button and command to stop all active debug sessions at once.",
-  "version": "0.1.0",
-  "publisher": "UtterDevelopment",
+  "version": "0.1.1",
+  "publisher": "UtterDev",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -71,7 +71,7 @@
     "compile": "tsc",
     "watch": "tsc -watch",
     "package": "npm run compile && vsce package",
-    "install-ext": "npm run package && code --install-extension debug-stop-all-0.1.0.vsix --force"
+    "install-ext": "npm run package && code --install-extension debug-stop-all-0.1.1.vsix --force"
   },
   "devDependencies": {
     "@types/vscode": "^1.70.0",
