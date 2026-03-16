@@ -71,7 +71,7 @@
     "compile": "tsc",
     "watch": "tsc -watch",
     "package": "npm run compile && vsce package",
-    "install-ext": "npm run package && code --install-extension debug-stop-all-0.0.1.vsix --force"
+    "install-ext": "npm run package && code --install-extension debug-stop-all-0.1.0.vsix --force"
   },
   "devDependencies": {
     "@types/vscode": "^1.70.0",
