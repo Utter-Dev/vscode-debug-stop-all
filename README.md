@@ -2,6 +2,8 @@
 
 Stop all active debug sessions with a single click or keyboard shortcut.
 
+![Debug Stop All screenshot](images/screenshot.png)
+
 ## Features
 
 - **Debug toolbar button** — Appears in the debug toolbar when debugging, right next to the built-in stop button
