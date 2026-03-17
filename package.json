@@ -10,6 +10,9 @@
     "url": "https://github.com/Utter-Dev/vscode-debug-stop-all"
   },
   "homepage": "https://utterdev.se",
+  "bugs": {
+    "url": "https://github.com/Utter-Dev/vscode-debug-stop-all/issues"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
