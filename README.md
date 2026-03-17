@@ -19,6 +19,12 @@ VS Code's built-in stop button only stops the currently focused debug session. W
 
 Especially useful if you use **compound debug configurations** in your `launch.json` — one click to tear down the entire stack.
 
+## Settings
+
+| Setting | Default | Description |
+|---|---|---|
+| `debugStopAll.confirmBeforeStop` | `false` | Show a confirmation dialog before stopping when more than one session is active |
+
 ## Usage
 
 1. Start two or more debug sessions
