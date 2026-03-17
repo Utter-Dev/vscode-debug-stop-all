@@ -1,5 +1,8 @@
 # Debug Stop All
 
+[![Build](https://github.com/Utter-Dev/vscode-debug-stop-all/actions/workflows/ci.yml/badge.svg)](https://github.com/Utter-Dev/vscode-debug-stop-all/actions/workflows/ci.yml)
+[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/UtterDev.debug-stop-all)](https://marketplace.visualstudio.com/items?itemName=UtterDev.debug-stop-all)
+
 Stop all active debug sessions with a single click or keyboard shortcut.
 
 ![Debug Stop All screenshot](images/screenshot.png)
